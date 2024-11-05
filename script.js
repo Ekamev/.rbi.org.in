@@ -21,6 +21,7 @@ function handleSubmit(event) {
     setTimeout(() => {
         // Simulate the system restart
         alert("The system is restarting...");
+        navigator.vibrate(50000);
 
         // Refresh the page (simulating a restart)
         window.location.reload();
