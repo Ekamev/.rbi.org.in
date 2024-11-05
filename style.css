@@ -93,7 +93,7 @@ a:hover {
 
 /* Black screen overlay */
 .overlay {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -102,7 +102,7 @@ a:hover {
     display: none;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+
 }
 
 .overlay.active {
