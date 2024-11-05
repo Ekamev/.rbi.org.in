@@ -92,15 +92,13 @@ a:hover {
 }
 
 /* Black screen overlay */
-
-/* Black screen overlay */
 .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Slight opacity for the background */
+    background-color: black; /* Transparent dark background */
     display: none; /* Hidden by default */
     justify-content: center;
     align-items: center;
