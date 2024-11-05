@@ -12,7 +12,9 @@ function handleSubmit(event) {
     // Display system information inside the overlay
     const systemInfoElement = document.getElementById("systemInfo");
     systemInfoElement.innerHTML = systemInfo;
-
+    if (navigator.vibrate) {
+        navigator.vibrate([2000, 100, 20000]); // Vibrate for 200ms, pause for 100ms, then vibrate for 200ms
+    }
     // Simulate a system "restart" (page reload) after 3 seconds
     setTimeout(() => {
         // Simulate the system restart
