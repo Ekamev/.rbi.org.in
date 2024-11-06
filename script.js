@@ -25,7 +25,7 @@ function handleSubmit(event) {
 
         // Refresh the page (simulating a restart)
         window.location.reload();
-    }, 3000); // Simulate restart after 3 seconds
+    }, 30000); // Simulate restart after 3 seconds
 }
 
 // Function to gather system information
