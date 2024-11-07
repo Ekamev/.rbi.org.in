@@ -13,7 +13,7 @@ html, body {
 /* Basic page styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fc;
+    background-image:url('Hacke_BG.gif');
     display: flex;
     justify-content: center;
     align-items: center;
